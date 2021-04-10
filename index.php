@@ -12,14 +12,14 @@ require_once (__DIR__ . '/includes/header.php');
                 <div class="row">
                     <?php if (isset($_SESSION['user_id'])) { ?>
                     <p>
-                        <a href="/src/user/logout.php" class="btn btn-success">Logout</a>
+                        <a href="src/user/logout.php" class="btn btn-success">Logout</a>
                     </p>
                     <?php } else {?>
                     <p>
-                        <a href="/src/user/new.php" class="btn btn-success">Créer un compte</a>
+                        <a href="src/user/new.php" class="btn btn-success">Créer un compte</a>
                     </p>
                     <p>
-                        <a href="/src/user/login.php" class="btn btn-primary">Login</a>
+                        <a href="src/user/login.php" class="btn btn-primary">Login</a>
                     </p>
                     <?php } ?>
                 </div>
